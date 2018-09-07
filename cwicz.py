@@ -12,4 +12,4 @@ print(decibels)
 radians = 0.7
 height = math.sin(radians)
 print(height)
-print(height*radians)
+print(height*radians*noise_power)
