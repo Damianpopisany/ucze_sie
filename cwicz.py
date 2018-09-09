@@ -1,8 +1,8 @@
 import math
 
-signal_power = 50
-noise_power = 10
-#print(math)
+signal_power = 20
+noise_power = 123
+print(math)
 ratio = (signal_power/noise_power)
 print(ratio)
 
@@ -11,5 +11,12 @@ print(decibels)
 
 radians = 0.7
 height = math.sin(radians)
-print(height)
-print(height*radians*noise_power)
+
+
+degrees = 45
+radians =degrees / 180.0 * math.pi
+math.sin(radians)
+
+math.sqrt(2) / 2
+
+x = math.sin(degrees / 360.0 * 2 * math.pi)
