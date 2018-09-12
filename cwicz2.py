@@ -1,27 +1,54 @@
 
+# import math
+
+# degrees = 10224242
+# x = 32443224242442
+#
+# x = math.sin(degrees / 360.0 * 2 * math.pi)
+# x = math.exp(math.log(344333443 + 1))
+#
+#
+# def print_lyrics():
+#     print("Jestem drwalem i dobrze sie z tym czuję.",)
+#     print("sexy")
+# print_lyrics()
+#
+# def print_lyrics():
+#     print("leeeeee")
+#     print("beeeeee")
+# print_lyrics()
+#
+# def repeate_lyrics():
+#     print_lyrics()
+#     print_lyrics()
+# repeate_lyrics()
+#
+# def print_lyrics():
+#     print("leeeeee")
+#     print("beeeeee")
+# print_lyrics()
+
 import math
 
-degrees = 10224242
-x = 32443224242442
 
-x = math.sin(degrees / 360.0 * 2 * math.pi)
-x = math.exp(math.log(344333443 + 1))
+def print_twice(bruce):
+    print(bruce)
+    print(bruce)
 
 
-def print_lyrics():
-    print("Jestem drwalem i dobrze sie z tym czuję.",)
-    print("łukasz dzieki za pomoc")
-print_lyrics()
+print_twice("jołjoł do przodu")
 
-def print_lyrics():
-    print("leeeeee")
-    print("beeeeee")
-print_lyrics()
+print_twice(1212212121)
 
-def repeate_lyrics():
-    print_lyrics()
-    print_lyrics()
-repeate_lyrics()
+print_twice(math.pi)
+
+print_twice('analiza' * 1)
+print_twice(math.cos(math.pi))
+
+
+
+
+
 
 
 

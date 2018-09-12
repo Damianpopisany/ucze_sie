@@ -2,8 +2,9 @@
 class Dupa1(object):
 
     def jeden(self):
-        selector = input("Wpisz 1 lub 2\n")
+        selector = int(input("Wpisz 1 lub 2\n"))
         print(selector)
+        print(type(selector))
         if selector == 1:
             print("wpisales 1")
         else:
