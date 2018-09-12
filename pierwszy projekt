@@ -1,0 +1,25 @@
+
+#
+# f = 4.8
+# w = 4
+# t = '444'
+#
+# print(w, type(w), str(w), type(str(w)))
+# print(t, type(t), int(t), type(int(t)) )
+# print(f, type(f), str(f), type(str(f)) )
+#
+# m = True
+#
+# if m == True:
+#     print ("w,t,f")
+#
+
+
+x = "Faza"
+y = "na trawie."
+
+m = x + " " + y
+print(m)
+
+l = len(m)
+print (l)
